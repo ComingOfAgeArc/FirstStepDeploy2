@@ -1,0 +1,58 @@
+.apply-job-page {
+  padding: 20px;
+  margin: auto;
+  color: #BFA181;
+  background:  #0A1828;
+  width: 60%;
+}
+.ok{
+    background:  #0A1828;
+}
+h2{
+  color: #BFA181;
+}
+*{
+  color:  #BFA181;
+}
+.job-details {
+    background:  #0A1828;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.job-details p strong {
+  color: #BFA181;; /* gold for labels */
+}
+
+.job-details p {
+  color: #BFA181;; /* gold for labels */
+}
+.application-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+    background:  #0A1828;
+}
+
+.application-form textarea,
+.application-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   color:  #0A1828
+}
+
+.application-form button {
+  width: fit-content;
+  padding: 8px 16px;
+  background-color: #BFA181;
+  color:  #0A1828;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.application-form button:hover {
+  background-color: #0A1828;
+  color:  #BFA181;
+}

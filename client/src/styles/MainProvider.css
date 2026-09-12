@@ -1,0 +1,118 @@
+.main-container {
+  display: flex;
+  flex-direction: column; /* Stack profile and jobs vertically */
+  gap: 30px;
+  padding: 20px;
+  background-color: #0A1828;
+}
+
+/* Profile Section - Full Width */
+.profile-section {
+  width: 100%;
+  background-color: #0A1828;
+  padding: 20px;
+  border-radius: 10px;
+  color: #BFA181;
+}
+
+.profile-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.profile-buttons button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #BFA181;
+  color: #0A1828;
+  transition: all 0.3s ease;
+}
+.profile-form input{
+  color:#0A1828;
+}
+
+.profile-buttons button:hover {
+  background-color: #0A1828;
+  color: #BFA181;
+}
+
+/* Jobs Section */
+.jobs-column {
+  width: 100%;
+}
+
+.add-job-btn {
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  background-color: #BFA181;
+  color: #0A1828;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width:200px;
+  align-self: center;
+}
+
+.add-job-btn:hover {
+  background-color: #0A1828;
+  color: #BFA181;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 job cards per row */
+  gap: 20px;
+}
+
+.job-card {
+  background-color: #0A1828;
+  padding: 15px;
+  border-radius: 10px;
+  color: #BFA181;
+}
+.job-card strong{
+  color:  #0A1828;
+}
+.job-card h4{
+  color:  #0A1828;
+}
+
+.applicant-card {
+  background-color: #14243C;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.applicant-header strong{
+  cursor: pointer;
+  font-weight: bold;
+  color: #BFA181;
+}
+
+.applicant-details {
+  margin-top: 5px;
+  padding-left: 10px;
+  font-size: 0.9rem;
+}
+
+h2, h3, h4, h5, strong{
+ color: #BFA181;
+}
+
+.applicant-details h2  {
+  color: #BFA181;
+}
+.applicant-details h3  {
+  color: #BFA181;
+}
+.applicant-details h4  {
+  color: #BFA181;
+}
+.applicant-details strong {
+  color: #BFA181;
+}

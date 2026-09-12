@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f2f2; /* neutral light turquoise background */
+  margin: 0;
+  padding: 0;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #0A1828; /* dark blue header text */
+}
+
+p {
+  text-align: center;
+  color: #178582; /* turquoise accent */
+}
+
+.page-container {
+  min-height: calc(100vh - 80px); /* adjust if header height changes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0A1828; /* full page background */
+  padding: 20px 0;
+}
+.login-container {
+  max-width: 400px;
+  margin: 30px auto;
+  background-color: #fff ;/* keep white for contrast */
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(23, 133, 130, 0.2); /* subtle turquoise shadow */
+  border-top: 4px solid #BFA181; /* gold accent top border */
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 10px 0;
+  border: 1px solid #178582; /* turquoise border */
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 10px;
+  background-color: #0A1828; /* turquoise button */
+  color: #BFA181; /* gold text */
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login-container button:hover {
+  background-color: #0A1828; /* dark blue hover */
+  transform: translateY(-1px);
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #178582; /* turquoise */
+}
+
+.switch-option {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.switch-option a {
+  color: #0A1828; /* dark blue text */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.switch-option a:hover {
+  color: #178582; /* turquoise on hover */
+  text-decoration: underline;
+}
+
+.login-container p {
+  color: #0A1828; /* error message in dark blue */
+  /* background-color:  #0A1828; */
+  margin-top: 10px;
+}
+
+h2{
+  color: #0A1828;
+}

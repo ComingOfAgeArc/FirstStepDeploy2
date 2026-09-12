@@ -1,0 +1,53 @@
+.add-job-container {
+  max-width: 600px;
+  margin:40px auto;
+  margin-top: 0px ;
+  padding: 24px;
+  background-color: #0A1828;
+}
+
+.add-job-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #BFA181;
+}
+
+.add-job-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-job-container input,
+.add-job-container textarea,
+.add-job-container select {
+  padding: 10px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  color : #0A1828;
+}
+
+.add-job-container textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+#ok{
+  background-color: #0A1828;
+}
+.add-job-container button {
+  padding: 12px;
+  background-color: #BFA181;
+  color: #0A1828;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 200px;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+
+.add-job-container button:hover {
+  background-color: #0A1828;
+  color: #BFA181;
+;
+}
