@@ -37,7 +37,7 @@ const Header = () => {
     <header className={`header ${darkMode ? 'dark' : ''}`}>
       <div className="logo">
         <Link to="/">
-          <span className="logo-icon">🚀</span>
+          
           <span className="logo-text">FirstStepJob<span>.com</span></span>
         </Link>
       </div>
