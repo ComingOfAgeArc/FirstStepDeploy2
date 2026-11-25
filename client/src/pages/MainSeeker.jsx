@@ -94,8 +94,8 @@ const MainSeeker = () => {
                       <p><strong>DOB:</strong> {profile.personalDetails?.dob}</p>
                       <p><strong>Gender:</strong> {profile.personalDetails?.gender}</p>
                       <p><strong>Skills:</strong> {profile.skills?.join(', ')}</p>
-                      <p><strong>Certifications:</strong> {profile.certifications?.join(', ')}</p>
-                      <p><strong>Projects:</strong> {profile.projects?.join(', ')}</p>
+                      {/* <p><strong>Certifications:</strong> {profile.certifications?.join(', ')}</p>
+                      <p><strong>Projects:</strong> {profile.projects?.join(', ')}</p> */}
                       <p><strong>GitHub:</strong> {profile.externalLinks?.github}</p>
                       <p><strong>LinkedIn:</strong> {profile.externalLinks?.linkedin}</p>
                       <p><strong>Portfolio:</strong> {profile.externalLinks?.portfolio}</p>
