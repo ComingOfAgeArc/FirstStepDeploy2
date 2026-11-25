@@ -14,8 +14,8 @@ const ProfileSetup = () => {
     education: [{ school: '', degree: '', field: '', startYear: '', endYear: '' }],
     experience: [{ company: '', role: '', duration: '' }],
     skills: [''],
-      certifications: [{ name: '' }],  
-  projects: [{ title: '' }], 
+  //     certifications: [{ name: '' }],  
+  // projects: [{ title: '' }], 
     externalLinks: { github: '', portfolio: '', linkedin: '' }
   });
 
